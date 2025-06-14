@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+}
+
+header {
+    background-color: #12a7e1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+header h2 {
+    padding: 0px 0px 0px 0px;
+}
+
+header section {
+    background-color: #93cafa;
+    color: black
+}
+
+header aside {
+    background-color: #93cafa;
+}
+
+nav {
+    background-color: #1d2125;
+    padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    min-height: 400px;
+}
+
+section {
+    background-color: #ffffff; 
+    flex: 3;
+    padding: 20px;
+}
+
+article {
+    background-color: #0b6ff2;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+aside {
+    background-color: #f4f3fa; 
+    color: rgb(0, 0, 0);
+    flex: 1;
+    padding: 20px;
+}
+
+aside a {
+    color: white;
+    padding: 4px 0px 0px 0px;
+}
+
+footer p{
+    background-color:#1d2125;
+    color: white;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+.space {
+    padding: 0px 0px 23px 0px;
+    color: black;
+}
